@@ -5,23 +5,20 @@
 Install from the NodeServer store or manually.
 
     cd .polyglot/nodeservers
-    git clone https://github.com/markv58/UDI-Ping.git
-    cd UDI-Ping
+    git clone https://github.com/gafrazie/UDI-Broadlink.git
+    cd UDI-Broadlink
     chmod +x install.sh
     ./install.sh
 
-Note: If you do a manual install, you will need to do a 'git reset --hard' in the .polyglot/nodeservers/UDI-Ping folder before you can update from the NodeServer store or do a 'git pull'.
+Note: If you do a manual install, you will need to do a 'git reset --hard' in the .polyglot/nodeservers/UDI-Broadlink folder before you can update from the NodeServer store or do a 'git pull'.
 
 #### Requirements
 
-A local Polyglot Nodeserver running on a Raspberry Pi.
+A local Polyglot Nodeserver running on a Raspberry Pi.     Hopefully native support for Polisy (By UDI)
 
 #### What does this do?
 
-This will ping devices on your lan or a .com. If a device does not respond it will be reported as In Fault until it hits 5 faults and then it's reported as Off Network. You can keep tabs on your devices, router, modem, internet connection, etc. and program an ISY controlled switch to cycle Off then On to reset the device or send yourself a notification.
+Use e-Sensor via Broadlink hub for statistics 
 
-1.0.2 minor bug fix
+@@@@ COMING SOON @@@@
 
-1.0.3 fixed crash when external ip is unreachable or modem is down
-
-1.0.5 works on Polisy now, use ip instead of the domain name. Ex. 8.8.8.8 for Google
