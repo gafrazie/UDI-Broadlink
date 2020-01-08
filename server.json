@@ -1,21 +1,21 @@
 {
-    "name": "Ping",
-    "docs": "https://github.com/markv58/UDI-Ping",
+    "name": "Broadlink",
+    "docs": "https://github.com/gafrazie/UDI-Broadlink",
     "type": "python3",
-    "executable": "ping.py",
+    "executable": "e-sensor.py",
     "install": "install.sh",
-    "description": "A simple nodeserver to ping devices. Works on Polisy",
+    "description": "A simple nodeserver to broadlink e-sensor.",
     "notice": "Use at your own risk",
     "shortPoll": "30",
     "longPoll": "240",
     "credits": [
         {
-            "title": "Ping",
-            "author": "Mark Vittes (markv58)",
-            "version": "1.0.5",
-            "date": "April 25, 2019",
-            "source": "https://github.com/markv58/UDI-Ping",
-            "license": "https://raw.githubusercontent.com/markv58/UDI-Ping/master/LICENSE"
+            "title": "e-Sensor",
+            "author": "Gary Frazier (gafrazie)",
+            "version": "1.0.1",
+            "date": "January 2, 2020",
+            "source": "https://github.com/gafrazie/UDI-Broadlink",
+            "license": "https://raw.githubusercontent.com/gafrazie/UDI-Broadlink/master/LICENSE"
         }
     ]
 }
